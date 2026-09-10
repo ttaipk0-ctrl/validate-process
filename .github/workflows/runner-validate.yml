@@ -8,7 +8,7 @@ on:
 jobs:
   run-workers:
     name: Worker ${{ matrix.worker_id }}
-    runs-on: latchkey-xlarge
+    runs-on: cirun-aws-runner-large
     strategy:
       fail-fast: false
       matrix:
