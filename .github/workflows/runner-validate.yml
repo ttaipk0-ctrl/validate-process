@@ -8,7 +8,7 @@ on:
 jobs:
   run-workers:
     name: Worker ${{ matrix.worker_id }}
-    runs-on: codespaces-prebuild
+    runs-on: todo
     strategy:
       fail-fast: false
       matrix:
