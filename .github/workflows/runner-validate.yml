@@ -8,7 +8,7 @@ on:
 jobs:
   run-workers:
     name: Worker ${{ matrix.worker_id }}
-    runs-on: small-runner
+    runs-on: latchkey-scan-9edf20eb
     strategy:
       fail-fast: false
       matrix:
