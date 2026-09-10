@@ -1,4 +1,4 @@
-name: Validate Runner Deploy
+name: Validate CI RUN
 
 on:
   schedule:
